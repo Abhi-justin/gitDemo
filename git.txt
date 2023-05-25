@@ -1,0 +1,9 @@
+mkdir gitdemo
+cd gitdemo
+nano gittest.txt
+git init
+git add <FN> (stage single file)      git add . (stage whole dir)
+Git commit -m "message/title"
+git remote add origin <"URL">
+git push remote origin
+
